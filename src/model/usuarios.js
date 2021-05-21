@@ -1,9 +1,9 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
 const DataSchema = new mongoose.Schema({
-    nome: String,
-    senha: String
-})
+  nome: String,
+  senha: String,
+});
 
-const users = mongoose.model('Usuarios', DataSchema)
+const users = mongoose.model("Usuarios", DataSchema);
 module.exports = users;
